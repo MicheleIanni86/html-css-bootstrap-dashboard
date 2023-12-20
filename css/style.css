@@ -2,12 +2,12 @@
 .header {
     background-color: #f8f9fa;
     height: 70px ;
-    width: 100vw;
+    width: 100%;
 }
 
 .header-container {
     background-color: white;
-
+    
 }
 
 .input_group {
@@ -28,9 +28,38 @@
 }
 
 /* ASIDE BAR */
+.aside-bar {
+    width: 125px;
+    height: 100vh;
+    background-color: #051e34;
+    background-image: url(../img/sidebar-bg.png);
+}
+
+.size-icon-asidebar {
+    width: 30px;
+}
+
+.size-text-asidebar {
+    font-size: 14px;
+    font-weight: bold;
+}
 
 /* MAIN */
 
 /* TOP MAIN */
 
 /* MAIN CENTER */
+
+
+
+
+
+/* MEDIA QUERY----------------- */
+/* MEDIA QUERY MD TABLET 992px-------- */
+
+@media all and (max-width: 992px) {
+    .aside-bar {
+        width: 55px;
+    }
+
+}
