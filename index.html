@@ -17,7 +17,34 @@
 </head>
 <body>
 <!-- HEADER -->
-<header class="header"></header>
+<header class="header text-center d-flex justify-content-center align-items-center">
+        
+    <div class="header-container container-fluid d-flex flex-grow-1 justify-content-between align-items-center gap-2">
+    
+          <a class="img-logo" href="#">
+            <img src="./img/mobile-logo.png" alt="" class="img-fluid d-block d-lg-none img_logo_mobile" >
+            <img src="./img/logo.svg" alt="#" class="img-fluid d-lg-block d-none ">
+          </a>
+          
+          <nav class="search-bar flex-grow-1 border-none">
+            <form class="container-fluid">
+              <div class="input-group">
+                <span class="input-group-text border border-0 input_group" id="basic-addon1"><i class="bi bi-search small-lens"></i></span>
+                <input type="text" class="form-control border border-0 input_group" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="search" aria-describedby="basic-addon1">
+              </div>
+            </form>
+          </nav>
+                    
+          <div class="d-flex icon-navbar">
+            <a href=""><i class="bi bi-list-ul d-lg-block d-none pe-3"></i></a>
+            <a href=""><i class="bi bi-question-circle-fill d-lg-block d-none pe-3"></i></a>
+            <a href=""><i class="bi bi-three-dots-vertical d-lg-block d-none pe-3"></i></a>
+            <a href=""><i class="bi bi-bell-fill"></i></a>
+          </div>
+                
+    </div>
+
+</header>
 
 <!-- ASIDE BAR -->
 <nav class="aside-nav"></nav>
@@ -32,7 +59,7 @@
 
     <!-- MAIN CENTER -->
     <div class="main-center">
-        
+
     </div>
 
 

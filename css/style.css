@@ -1,0 +1,36 @@
+/* HEADER */
+.header {
+    background-color: #f8f9fa;
+    height: 70px ;
+    width: 100vw;
+}
+
+.header-container {
+    background-color: white;
+
+}
+
+.input_group {
+    background-color: #e5e5e5;
+}
+
+.icon-navbar a i {
+    color: #5a5757;
+}
+
+.icon-navbar :last-child i  {
+    color: #ff9003;
+}
+
+.img_logo_mobile {
+    height: 47px;
+    width: 47px;
+}
+
+/* ASIDE BAR */
+
+/* MAIN */
+
+/* TOP MAIN */
+
+/* MAIN CENTER */
