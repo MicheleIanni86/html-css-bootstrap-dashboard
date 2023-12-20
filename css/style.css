@@ -7,7 +7,6 @@
 
 .header-container {
     background-color: white;
-    
 }
 
 .input_group {
@@ -27,10 +26,12 @@
     width: 47px;
 }
 
+/* MAIN------------- */
+
 /* ASIDE BAR */
 .aside-bar {
     width: 125px;
-    height: 100vh;
+    height: calc(100vh - 70px);
     background-color: #051e34;
     background-image: url(../img/sidebar-bg.png);
 }
@@ -44,7 +45,6 @@
     font-weight: bold;
 }
 
-/* MAIN */
 
 /* TOP MAIN */
 
@@ -55,8 +55,8 @@
 
 
 /* MEDIA QUERY----------------- */
-/* MEDIA QUERY MD TABLET 992px-------- */
 
+/* MEDIA QUERY MD TABLET 992px-------- */
 @media all and (max-width: 992px) {
     .aside-bar {
         width: 55px;
