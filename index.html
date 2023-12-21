@@ -39,7 +39,20 @@
             <a href=""><i class="bi bi-list-ul d-lg-block d-none pe-3"></i></a>
             <a href=""><i class="bi bi-question-circle-fill d-lg-block d-none pe-3"></i></a>
             <a href=""><i class="bi bi-three-dots-vertical d-lg-block d-none pe-3"></i></a>
-            <a href=""><i class="bi bi-bell-fill"></i></a>
+            <a href="">
+              <div class="dropdown">
+                <a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span><i class="bi bi-bell-fill bell-yellow"></i></span>
+                </a>
+              
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Prossime classi</a></li>
+                  <li><a class="dropdown-item" href="#">FAQ</a></li>
+                  <li><a class="dropdown-item" href="#">Impostazioni</a></li>
+                </ul>
+              </div>
+              
+            </a>
           </div>
                 
     </div>
@@ -53,7 +66,7 @@
     <!-- ASIDE BAR -->
     <nav class="aside-bar d-flex flex-column ">
     
-        <div class="list-group flex-grow-1 mt-3">
+        <div class="list-group flex-grow-1 mt-3 hover-aside-bar">
             <a href="#" class="list-group-item border border-0 bg-transparent text-white d-flex align-items-center justify-content-center"><i class="fa-solid fa-house  size-icon-asidebar"></i><div class="size-text-asidebar d-lg-block d-none">Home</div></a>
             <a href="#" class="list-group-item border border-0 bg-transparent text-white d-flex align-items-center justify-content-center"><i class="fa-solid fa-chart-simple size-icon-asidebar"></i><div class="size-text-asidebar d-lg-block d-none">Stats</div></a>
             <a href="#" class="list-group-item border border-0 bg-transparent text-white d-flex align-items-center justify-content-center"><i class="fa-solid fa-signal size-icon-asidebar"></i><div class="size-text-asidebar d-lg-block d-none">Signal</div></a>
@@ -110,7 +123,7 @@
                 
         
       <!-- MAIN CENTER -->
-      <div class="container-fluid main-center">
+        <div class="container-fluid main-center">
 
           <!-- INIZIO ROW -->
           <div class="row p-1 mt-3">
@@ -198,7 +211,7 @@
                   </div>
               </div>        
 
-
+              <!-- CARD FAQ -->
               <div class="card mb-3">
                 <div class="card-header fw-bold fs-4">
                   F.A.Q.
@@ -234,14 +247,17 @@
                       <div class="accordion-body">Certamente..forse lo stai già facendo! :)</div>
                     </div>
                   </div>
-                </div>                
+                </div>
               </div>         
+              <!--FINE CARD FAQ  -->
             </div>
+            <!-- FINE PRIMA COLONNA -->
+
 
             <!-- SECONDA COLONNA -->
-           
             <div class="col-12 col-lg-4">
 
+              <!-- CARD TODO -->
               <div class="card mb-3">
 
                 <div class="card-header fw-bold fs-4">
@@ -286,11 +302,11 @@
 
                   </div>
 
-                </div>
-
+              </div>
+              <!-- FINE CARD TODO -->
                 
-                
-                  <div class="card">
+              <!-- CARD STATS -->
+              <div class="card">
                     <div class="card-body">
                       <div class="card">
                         <img src="./img/stats.jpeg" class="img-fluid card-img-top" alt="stats">
@@ -308,14 +324,18 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+              </div>
+              <!-- FINE CARD STATS -->
                 
-              </div> 
+            </div>
+            <!--FINE SECONDA COLONNA  -->
+
           </div>
           <!-- FINE ROW -->
 
         </div>
         <!-- FINE MAIN CENTER -->
+
     </div>
       
       
