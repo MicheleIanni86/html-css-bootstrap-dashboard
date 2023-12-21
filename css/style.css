@@ -89,9 +89,13 @@
 .plus-student {
     font-size: 22px;
     border: 1.5px solid white;
-    padding: 0px 5px;
     border-radius: 5px;
 
+}
+
+/* OFFCANVAS */
+.offcanvas-size-xl {
+    --bs-offcanvas-width: min(100vw, 600px) !important;
 }
 
 

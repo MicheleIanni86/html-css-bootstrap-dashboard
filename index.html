@@ -45,7 +45,7 @@
                   <span><i class="bi bi-bell-fill bell-yellow"></i></span>
                 </a>
               
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu dropdown-menu-dark">
                   <li><a class="dropdown-item" href="#">Prossime classi</a></li>
                   <li><a class="dropdown-item" href="#">FAQ</a></li>
                   <li><a class="dropdown-item" href="#">Impostazioni</a></li>
@@ -113,7 +113,176 @@
             
             <div class="col-12 col-md-4 col-lg-3  d-flex justify-content-start justify-content-md-center align-items-center gap-3">
               <div class="new-student">Nuovo Studente</div>
-              <div class="plus-student"><a href="#"><i class="bi bi-plus text-white"></i></a></div>
+              
+              <!-- BUTTON ADD STUDENT -->
+              <div class="plus-student">
+                <a href="#">
+                  <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="bi bi-plus text-white"></i></button>
+
+                  <div class="offcanvas offcanvas-end offcanvas-size-xl" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+
+                    <!-- OFFCANVAS BODY -->
+                    <div class="offcanvas-body">
+                      
+                      <form>
+                        <div class="container text-start">
+
+                          <!-- PRIMA RIGA -->
+                          <div class="row">
+
+                            <div class="col-6"> 
+
+                              <div class="mb-3">
+                                <label for="Nome" class="form-label">Nome</label>
+                                <input type="text" class="form-control" id="text">
+                              </div>
+
+                            </div>
+
+
+                            <div class="col-6">
+
+                              <div class="mb-3">
+                                <label for="Cognome" class="form-label">Cognome</label>
+                                <input type="text" class="form-control" id="text">
+                              </div>
+                                                         
+                            </div>
+
+                          </div>
+
+                          <!-- SECONDA RIGA -->
+                          <div class="row">
+
+                            <div class="col-6"> 
+
+                              <div class="input-group mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <div class="input-group mb-3">
+                                  <span class="input-group-text" id="basic-addon1">@</span>
+                                  <input type="email" class="form-control" >
+                                </div>
+                                
+                              </div>
+                              
+
+                            </div>
+
+
+                            <div class="col-6">
+
+                              <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="password">
+                              </div>
+                                                         
+                            </div>
+
+                          </div>
+
+                          <!-- TERZA RIGA -->
+                          <div class="row">
+
+                            <div class="col-12"> 
+
+                              <div class="mb-3">
+                                <label for="text" class="form-label">Indirizzo</label>
+                                <input type="text" class="form-control" id="text">
+                              </div>
+
+                            </div>
+
+                          </div>
+
+
+                          <!-- QUARTA RIGA -->
+                          <div class="row">
+
+                            <div class="col-6"> 
+
+                              <div class="mb-3">
+                                <label for="text" class="form-label">Città</label>
+                                <input type="text" class="form-control" id="text" aria-describedby="emailHelp">
+                              </div>
+
+                            </div>
+
+                            <div class="col-3"> 
+
+                              <div class="mb-3">
+                                <label for="text" class="form-label">Stato</label>
+                                <input type="text" class="form-control" id="text" aria-describedby="emailHelp">
+                              </div>
+
+                            </div>
+
+
+                            <div class="col-3"> 
+
+                              <div class="mb-3">
+                                <label for="text" class="form-label">CAP</label>
+                                <input type="text" class="form-control" id="text" aria-describedby="emailHelp">
+                              </div>
+
+                            </div>
+
+
+                          </div>
+
+
+                          <!-- QUINTA RIGA -->
+                          <div class="row mb-3">
+
+                            <div class="col-12"> 
+
+                              <div class="input-group">
+                                <label for="file" class="form-label">File</label>
+                                <div class="input-group">
+                                  <input type="file" class="form-control" id="inputGroupFile04" aria-label="Upload">
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+
+
+                          <!-- CHECK -->
+                          <div class="form-check mb-3">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                              Seleziona per proseguire
+                            </label>
+                          </div>
+                                                    
+
+                        
+
+                          <!-- BADGE -->
+                          <button type="submit" class="btn btn-primary">Salva</button>
+                          <button type="button" class="btn btn-warning">Svuota</button>
+
+
+                          
+
+
+
+                        </div>
+
+                      
+                      </form>
+                    
+                    
+                    
+                    </div>
+                  </div>
+                  
+                </a>
+              </div>
+            
             </div>
           </div>
           
