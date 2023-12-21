@@ -47,8 +47,55 @@
 
 
 /* TOP MAIN */
+.central-content {
+    width: calc(100% - 125px);
+    height: calc(100vh - 70px);
+}
+
+.top-main {
+     width: 100%;
+     background-color: #1b72e8;
+}
+
+.container-top-main .text-app {
+      font-size: 10px;
+      font-weight: bold;
+      background-color: #165bba;
+      padding: 0 10px;
+      border-radius: 15px;  
+}
+
+.container-top-main .text-app-plus {
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #165bba;
+    padding: 0 3px;
+    border-radius: 15px;    
+}
+
+.student-online {
+    font-size: 14px;
+}
+
+.new-student {
+    font-size: 14px;
+}
+
+.plus-student {
+    font-size: 22px;
+    border: 1.5px solid white;
+    padding: 0px 5px;
+    border-radius: 5px;
+
+}
+
 
 /* MAIN CENTER */
+.main-center {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
 
 
 
@@ -60,6 +107,12 @@
 @media all and (max-width: 992px) {
     .aside-bar {
         width: 55px;
+    }
+
+
+    /* TOP MAIN */
+    .central-content {
+        width: calc(100% - 55px);
     }
 
 }
